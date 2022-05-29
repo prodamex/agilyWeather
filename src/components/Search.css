@@ -1,0 +1,74 @@
+html, body {
+    font: 0.9rem sans-serif;
+    background: #144606;
+    color: #1e2432;
+    height: 100%;
+    margin: 0;
+}
+
+
+.main-container {
+    background: #144606;
+    height: 900px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.child {
+    position:relative;
+
+}
+.child .iconSearch{
+    position:absolute;
+
+      right: -10px;
+      top:195px;
+      padding:10px 10px;
+     color: #144606;
+
+
+}
+
+.child h2{
+    font:  times;
+    font-weight: 1200;
+
+    color: white;
+    font-size: 42px;
+    width: 600px;
+    text-align: center;
+    background: -webkit-linear-gradient(#26C45F, #c6d72e);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+::placeholder{
+    font-size: 28;
+    font-weight: 900;
+    color: #144606;
+ }
+.search {
+    margin-top: 30px;
+    outline: none;
+    padding: 17px 75%;
+    border-radius: 15px;
+    border: none;
+    margin-bottom: 5%;
+    background: white;
+    padding-left: 15px;
+    
+
+}
+
+
+@media only screen and (max-width: 600px) {
+   /* .search {
+        padding: 20px 15%;
+    }
+*/
+}
